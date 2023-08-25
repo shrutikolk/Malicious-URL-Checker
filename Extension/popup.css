@@ -1,0 +1,107 @@
+body
+{
+	background-color:#3502FE	
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo 
+{
+	width:300px;
+	height:300px;	
+}
+
+input:checked + .slider {
+  background-color: #7f858a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #7f858a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #000000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #1c1a26;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p
+{
+	display: inner-flex;
+    margin: auto 5px;
+    font-size: 18px;
+	text-align:center;
+    color: white;
+    border-radius: 3px;
+    border: 1px;
+    padding: 10px;
+}
+
+.p1
+{
+    font-size: 18px;
+	text-align:center;
+    color: white;
+	font-weight: bold;
+}
+
+.p2
+{
+	font-size: 15px;
+	text-align:center;
+    color: white;
+	#color: black;
+}

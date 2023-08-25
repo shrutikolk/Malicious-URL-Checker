@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "SecureUs",
+  "version": "0.1",
+  "icons": {
+    "25": "icon2.png"
+  },
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [ "jquery-3.6.0.min.js", "content.js" ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "SecureUs"
+  }
+}
